@@ -1,6 +1,5 @@
-/*
-	Installed from https://reactbits.dev/ts/tailwind/
-*/
+/* eslint-disable react-hooks/exhaustive-deps */
+
 "use client";
 
 import { useEffect, useRef } from "react";
@@ -179,7 +178,7 @@ export default function Orb({
       gl_FragColor = vec4(col.rgb * col.a, col.a);
     }
   `;
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const container = ctnDom.current;
     if (!container) return;
