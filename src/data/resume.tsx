@@ -4,7 +4,7 @@ import { HomeIcon, Instagram, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "David NDIZEYE",
   initials: "DV",
-  url: "https://davidndizeye.dev",
+  url: "https://davidndizeye.vercel.app",
   location: "Kigali, Rwanda",
   locationLink: "https://www.google.com/maps/place/kigali",
   description: "Ze best brogrammer🦆",

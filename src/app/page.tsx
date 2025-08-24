@@ -1,3 +1,4 @@
+import Background from "@/components/Background";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -14,6 +15,7 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <Background />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -144,7 +146,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
-                  video={project.video}
+                  // video={project.video}
                   links={project.links}
                 />
               </BlurFade>
@@ -184,7 +186,7 @@ export default function Page() {
                     location={project.location}
                     dates={project.dates}
                     image={project.image}
-                    links={project.links}
+                    // links={project.links}
                   />
                 </BlurFade>
               ))}
