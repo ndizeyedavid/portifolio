@@ -96,6 +96,11 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Preview",
+          href: "https://shejacards.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Repository",
           href: "https://github.com/ndizeyedavid/sheja-cards",
           icon: <Icons.github className="size-3" />,
@@ -113,7 +118,7 @@ export const DATA = {
       technologies: ["React", "Appwrite", "Tailwind", "Framer-motion"],
       links: [
         {
-          type: "Website",
+          type: "Preview",
           href: "https://thegreatmoyibilliards.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -134,7 +139,7 @@ export const DATA = {
       technologies: ["React", "Tailwind", "Framer-motion"],
       links: [
         {
-          type: "Website",
+          type: "Preview",
           href: "https://essanyarugunga1.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -155,6 +160,11 @@ export const DATA = {
         "An open-source emergency tracking and SOS alerting system for the community by the community",
       technologies: ["Flutter", "Firebase", "Node.js", "AI Ranking"],
       links: [
+        {
+          type: "Preview",
+          href: "https://inkingirescue.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Repository",
           href: "https://github.com/ndizeyedavid/inkingi-rescue-frontend",
