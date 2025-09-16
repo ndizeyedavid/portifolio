@@ -110,21 +110,28 @@ export const DATA = {
     },
     {
       title: "Moyi Billiards",
-      href: "https://thegreatmoyibilliards.netlify.app/",
+      href: "https://moyibilliards.vercel.app/",
       dates: "2024 - 2025",
       active: true,
       description:
         "Platform to connect hospitals and health centers across Rwanda. Handles patient records and referral transfers with map integration (Mapbox).",
-      technologies: ["React", "Appwrite", "Tailwind", "Framer-motion"],
+      technologies: [
+        "NextJs",
+        "Prisma",
+        "Tailwind",
+        "Shadcn",
+        "PostgreSQL",
+        "neon",
+      ],
       links: [
         {
           type: "Preview",
-          href: "https://thegreatmoyibilliards.netlify.app/",
+          href: "https://moyibilliards.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Repository",
-          href: "https://github.com/ndizeyedavid/GREAT-MOYI-BILLIARDS/",
+          href: "https://github.com/ndizeyedavid/moyi-billiards/",
           icon: <Icons.github className="size-3" />,
         },
       ],
